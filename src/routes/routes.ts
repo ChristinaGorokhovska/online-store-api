@@ -17,7 +17,7 @@ import { logoutUser } from "../controllers/logoutController";
 import { changeEmail } from "../controllers/emailController";
 import { cancelOrder, createOrder, getOrders, submitOrder } from "../controllers/orderController";
 import verifyRoles from "../middleware/verifyRoles";
-import ROLES from "../config/roles";
+import ROLES from "../roles";
 import { refreshToken } from "../controllers/refreshTokenController";
 import { Router } from "express";
 const routes = Router();
